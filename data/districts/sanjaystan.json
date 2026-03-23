@@ -1,0 +1,39 @@
+{
+  "id": "sanjaystan",
+
+  "species": {
+    "human": 0.6,
+    "alien": 0.4
+  },
+
+  "classes": {
+    "poor": 0.5,
+    "middle": 0.3,
+    "rich": 0.2
+  },
+
+  "parties": [
+    {
+      "id": "bhakts",
+      "supports": {
+        "species": ["human"],
+        "classes": ["poor"]
+      },
+       "hates": {
+        "species": ["aliens"],
+        "classes": ["rich"]
+      }
+    },
+    {
+      "id": "randians",
+      "supports": {
+        "species": ["human", "alien"],
+        "classes": ["rich"]
+      },
+      "hates": {
+        "species": [],
+        "classes": ["poor"]
+      }
+    }
+  ]
+}
